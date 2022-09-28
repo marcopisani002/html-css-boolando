@@ -3,3 +3,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #23272A;
+}
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+header {
+    background-color:#F26400;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F26400;
+    height: 3rem;
+
+}
+
+nav {
+    background-color: #F26400;
+    display: flex;
+    
+}
+.link-container ul {
+    color: white;
+    display: flex;
+    column-gap: 2rem;
+    list-style: none;
+    height: 100%;
+
+}
+
+.login-container {
+    color: white;
+    padding: 0.5rem;
+   
+}
+.img-logo
+{
+    margin-right: 7rem;
+    width: 120px;
+}
