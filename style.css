@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     color: #23272A;
@@ -15,7 +16,7 @@ body {
 }
 
 header {
-    background-color:#F26400;
+    background-color: #F26400;
 }
 
 header nav {
@@ -30,8 +31,9 @@ header nav {
 nav {
     background-color: #F26400;
     display: flex;
-    
+
 }
+
 .link-container ul {
     color: white;
     display: flex;
@@ -44,82 +46,98 @@ nav {
 .login-container {
     color: white;
     padding: 0.5rem;
-   
-   
+
+
 }
-.img-logo
-{
+
+.img-logo {
     margin-right: 7rem;
     width: 120px;
 }
-.orange-price{
+
+.orange-price {
     color: #F26400;
 }
-.delete-price{
-text-decoration: line-through;
+
+.delete-price {
+    text-decoration: line-through;
 }
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
-   
-  }
-   
-  .card img {
+
+
+}
+
+.card {
+    padding: 1rem;
+    position: relative;
+    width: calc(100% / 3);
+
+    overflow: hidden;
+}
+
+img {
     width: 100%;
     display: block;
-  }
-  
-  .card-texts-container {
+}
+
+.card-texts-container {
     padding: 0.5rem 1rem;
-  }
-  
-  .card:hover .card-texts-container {
+}
+
+.card:hover .card-texts-container {
     color: rgb(15, 14, 14);
-  }
-  
-  .discount-container {
+}
+
+.discount-container {
     padding: .5rem;
     font-size: .8rem;
     color: white;
     position: relative;
-    bottom: 3%;
+    bottom: 22%;
     left: 0%;
-  }
-   .dsc-red{
+}
+
+.dsc-red {
     background-color: rgb(240, 66, 66);
     padding: 0.5rem 1rem;
-    
-   }
-   .dsc-green{
+
+}
+
+.dsc-green {
     background-color: rgb(5, 90, 5);
     padding: 0.5rem 1rem;
-   }
-  
-  .discount-container:hover {
+}
+
+.discount-container:hover {
     color: aqua
-  }
-  
-  .description-container {
+}
+
+.img-hover-container {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 1rem;
-    color: white;
+
     display: none;
-    
-  }
-  
-  .card:hover .description-container {
+
+}
+
+.img-container:hover .img-hover-container {
+    display: block;
+
+}
+
+.card:hover .description-container {
     display: flex;
-  
-  }
-  
-  .img-container {
+
+}
+
+.img-container {
     position: relative;
-   
-  }
-  
+
+}
+
